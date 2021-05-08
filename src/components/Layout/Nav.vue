@@ -5,7 +5,6 @@
       <!-- <img left class="imgLogo" src="../assets/logo.png" /> -->
       <img left class="imgLogo" src="https://lebaronet.com/wp-content/uploads/2020/08/logo-baronet-web.svg" />
     </b-navbar-brand><!--logoNav -->
-    <!-- <b-navbar-toggle target="nav-collapse"></b-navbar-toggle> -->
     <b-navbar-nav class="ml-auto">
       <b-navbar-nav >
         <b-nav-item class="linkNav" href="#">Accueil</b-nav-item>
@@ -14,7 +13,7 @@
         <b-nav-item href="#">Les Plans</b-nav-item>
         <b-nav-item href="#">Nous joindre</b-nav-item>
         <b-nav-item id="liBorder" href="#">Réserver mon unité</b-nav-item>
-      </b-navbar-nav>
+      </b-navbar-nav><!--ml-auto-->
     </b-navbar-nav>
   </b-navbar><!--navbar--> 
 </template>

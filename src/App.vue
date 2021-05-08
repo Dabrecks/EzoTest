@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Hero />
+  <Edifice />
   </div>
 </template>
 
 <script>
 import Hero from './components/Hero.vue'
+import Edifice from './components/Edifice.vue'
 
 export default {
   name: 'App',
   components: {
     Hero,
+    Edifice,
   }
 }
 </script>
@@ -24,9 +27,9 @@ export default {
   /* text-align: center; */
   color: #2c3e50;
 }
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 </style>

@@ -16,18 +16,15 @@
           </h1>
       </div>
   </header>
-  <Edifice />
   </div>
 </template>
 
 <script>
 import Nav from "./Layout/Nav"
-import Edifice from "./Edifice"
 export default {
     name:"Hero",
     components: {
     Nav,
-    Edifice,
   }
 }
 </script>
@@ -42,16 +39,17 @@ header {
 }
 .backgroundText {
     position: absolute;
-    left: 125px;
+    left: 6%;
     bottom: -150px;
     z-index: 1;
 }
 .backgroundText h1 {
     font-family: 'Oxygen', sans-serif;
-    background-color: #22597e;
+    background-color: #022943;
     color: #ffffff;
     font-size: 4rem;
     padding: 0px 10px;
+    width: fit-content;
 
 }
 </style>
