@@ -37,8 +37,6 @@
                       </button>
                   </b-col>
               </b-row>
-              
-
           </b-col><!--textEdifice-->
           <b-col class="imgEdifice">
               <img src="../assets/edifice.png" alt="edifice">
@@ -57,11 +55,8 @@ export default {
 #sectionEdifice {
     padding: 0% 6%;
     margin: 150px 0px 150px 0px;
-    font-family: 'Oxygen', sans-serif;
 }
-/* .rowEdifice {
-    height: 120vh;
-} */
+
 /***********************TEXTE***********************/
 .textEdifice {
     padding-right: 20px !important;

@@ -2,15 +2,13 @@
   <div>
       <header>
       <Nav />
-      <div class="backgroundText">
+      <div class="backgroundTextEdifice">
           <h1>
               Des appartements
           </h1>
-          <br>
           <h1>
               de qualité à
           </h1>
-          <br>
           <h1>
               Sainte-Marie 
           </h1>
@@ -37,19 +35,18 @@ header {
     background-position: 50% 50%;
     height: 100vh;
 }
-.backgroundText {
+.backgroundTextEdifice {
     position: absolute;
     left: 6%;
-    bottom: -150px;
+    bottom: -130px;
     z-index: 1;
 }
-.backgroundText h1 {
+.backgroundTextEdifice h1 {
     font-family: 'Oxygen', sans-serif;
     background-color: #022943;
     color: #ffffff;
     font-size: 4rem;
     padding: 0px 10px;
     width: fit-content;
-
 }
 </style>

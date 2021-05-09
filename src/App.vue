@@ -1,19 +1,28 @@
 <template>
   <div id="app">
     <Hero />
-  <Edifice />
+    <Edifice />
+    <Reservation />
+    <Services />
+    <!-- <Test /> -->
   </div>
 </template>
 
 <script>
 import Hero from './components/Hero.vue'
 import Edifice from './components/Edifice.vue'
+import Reservation from './components/Reservation.vue'
+import Services from './components/Services.vue'
+// import Test from './components/Test.vue'
 
 export default {
   name: 'App',
   components: {
     Hero,
     Edifice,
+    Reservation,
+    Services,
+    // Test,
   }
 }
 </script>
@@ -21,11 +30,11 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Oxygen', sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   /* text-align: center; */
-  color: #2c3e50;
+  /* color: #2c3e50; */
 }
 /* *{
   margin: 0;
