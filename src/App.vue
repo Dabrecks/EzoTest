@@ -4,6 +4,7 @@
     <Edifice />
     <Reservation />
     <Services />
+    <Carousel />
     <!-- <Test /> -->
   </div>
 </template>
@@ -13,6 +14,7 @@ import Hero from './components/Hero.vue'
 import Edifice from './components/Edifice.vue'
 import Reservation from './components/Reservation.vue'
 import Services from './components/Services.vue'
+import Carousel from './components/Carousel.vue'
 // import Test from './components/Test.vue'
 
 export default {
@@ -22,6 +24,7 @@ export default {
     Edifice,
     Reservation,
     Services,
+    Carousel,
     // Test,
   }
 }

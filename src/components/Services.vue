@@ -50,7 +50,7 @@ export default {
 }
 .droiteService {
     background-color: #ffffff;
-    padding-left: 25px;
+    padding-left: 25px !important;
 }
 .texteBlanc {
     color: #ffffff;

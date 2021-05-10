@@ -12,7 +12,7 @@
           <h1>
               Sainte-Marie 
           </h1>
-      </div>
+      </div><!--backgroundTextEdifice-->
   </header>
   </div>
 </template>
